@@ -1,0 +1,9 @@
+.list-movies {
+    display: flex;
+    width: 100%;
+    overflow-x: scroll;
+}
+
+.div-list-movies{
+    margin: 0 10px;
+}

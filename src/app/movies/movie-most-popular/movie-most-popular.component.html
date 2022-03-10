@@ -1,0 +1,9 @@
+<h2>Mas popular</h2>
+
+<div class="list-movies">
+    <div *ngFor="let movie of listaMovies" class="div-list-movies">
+        <img src="https://image.tmdb.org/t/p/w220_and_h330_face{{movie.poster_path}}" alt="">
+        <p>{{movie.title}}</p>
+        <p>fecha: {{movie.release_date | date :'dd-LLLL-YYYY'}}</p>
+    </div>
+</div>
